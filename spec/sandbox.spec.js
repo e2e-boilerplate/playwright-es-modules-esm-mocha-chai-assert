@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-import { expect } from "chai";
+import { assert } from "chai";
 
 let page;
 let browser;
@@ -26,9 +26,11 @@ describe("Sandbox", () => {
 
   it("should be on sandbox", async () => {
     await page.waitFor("h1");
+
+    const pageTitle = await page.title();
     const title = await page.$eval("h1", (el) => el.textContent);
 
-    expect(await page.title()).to.equal("Sandbox");
-    expect(title).to.equal("Sandbox");
+    assert.strictEqual(pageTitle, "Sandbox");
+    assert.strictEqual(title, "Sandbox");
   });
 });
