@@ -1,9 +1,0 @@
-| referrer                                                                           | count | uniques |
-| :--------------------------------------------------------------------------------- | :---- | :------ |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert                       | 6     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/actions               | 4     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/graphs/traffic        | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/pulse                 | 3     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/actions/runs/71857083 | 1     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/runs/564449297        | 1     | 1       |
-| /e2e-boilerplate/playwright-es-modules-esm-mocha-chai-assert/runs/564851640        | 1     | 1       |
