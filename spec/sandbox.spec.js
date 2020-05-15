@@ -25,7 +25,7 @@ describe("Sandbox", () => {
   });
 
   it("should be on sandbox", async () => {
-    await page.waitFor("h1");
+    await page.waitForSelector("h1");
 
     const pageTitle = await page.title();
     const title = await page.$eval("h1", (el) => el.textContent);
